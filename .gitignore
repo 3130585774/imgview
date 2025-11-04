@@ -24,3 +24,6 @@ dist/
 
 # Test files
 test_output/
+
+# CodeQL
+_codeql_*
