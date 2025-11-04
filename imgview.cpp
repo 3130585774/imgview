@@ -110,6 +110,8 @@ int main(int argc, char **argv)
             int iy = static_cast<int>(src_y);
             
             // Bounds checking
+            if (ix < 0) ix = 0;
+            if (iy < 0) iy = 0;
             if (ix >= img_w) ix = img_w - 1;
             if (iy >= img_h) iy = img_h - 1;
             
