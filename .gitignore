@@ -1,0 +1,29 @@
+# Compiled binaries
+imgview
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Build directories
+build/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Test files
+test_output/
+
+# CodeQL
+_codeql_*
